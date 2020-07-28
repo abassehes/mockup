@@ -1,5 +1,7 @@
-print("testy")
+# test_capitalize.py
 
-a = 5
-b = 6
-c = a + b
+def capital_case(x):
+    return x.capitalize()
+
+def test_capital_case():
+    assert capital_case('semaphore') == 'Semaphore'
